@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/import_from_dialog_bg"
+        android:layout_width="244dip"
+        android:layout_height="150dip"
+        android:background="#f5efe2"
+        android:scaleType="fitXY" >
+
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/message_text"
+            android:textSize="15dp"
+            android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/ok_message_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:text="@android:string/ok" />
+
+    </RelativeLayout>
+
+</LinearLayout>

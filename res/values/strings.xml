@@ -3,5 +3,5 @@
 
     <string name="hello">Hello World, SampleGitPractiseActivity!</string>
     <string name="app_name">SampleGitPractise</string>
-
+    <string name= "message_text">Hello world welcome to git</string>
 </resources>

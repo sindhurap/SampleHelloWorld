@@ -20,9 +20,7 @@ public class SampleGitPractiseActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(SampleGitPractiseActivity.this,
-						"Show Dialog Button Clicked", Toast.LENGTH_SHORT)
-						.show();
+
 			}
 		});
 	}
